@@ -7,6 +7,7 @@ class Backrgound_Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(300, 300, 600, 600)
+        self.setWindowIcon(QIcon(r'images\background_icon.jpg'))
         self.setStyleSheet('background:rgb(228, 255, 213)')
         self.setWindowTitle('Choose Background Color')
         self.dic = {}

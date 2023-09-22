@@ -7,7 +7,8 @@ By using this app you can simply make a quiz for yourself that automatically rea
 * ### The program saves all the quiz results you get by the dates they have been completed.
 * ### Once you solve a question wrong, you will have 7 seconds to analyze the question.
 * ### You can choose the test number you want to solve in the quiz.
-* ### 
+* ### You can choose background color you want
+* ### The program has timer feature
 
 # Requirements
 * ### PyQt5==5.15.9

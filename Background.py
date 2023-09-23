@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QFont
+from PyQt5.QtGui import QIcon
 import MainMenu
-#rgb(135, 167, 255)
 
 class Backrgound_Window(QWidget):
     def __init__(self):

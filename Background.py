@@ -62,7 +62,6 @@ class Backrgound_Window(QWidget):
 
     def Chosen_Button(self):
         button = self.sender()
-        print(self.dic[button])
         with open(r'data\background.txt', mode = 'w') as background:
             background.write(self.dic[button])
 

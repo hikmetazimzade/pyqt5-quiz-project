@@ -14,4 +14,3 @@ By using this app you can simply make a quiz for yourself that automatically rea
 * ### PyQt5==5.15.9
 * ### PyPDF2==3.0.1
 * ### PyQt5_sip==12.11.0
-

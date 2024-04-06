@@ -59,7 +59,7 @@ class Backrgound_Window(QWidget):
         background_4.clicked.connect(self.Chosen_Button)
         background_5.clicked.connect(self.Chosen_Button)
         background_6.clicked.connect(self.Chosen_Button)
-
+        
     def Chosen_Button(self):
         button = self.sender()
         with open(r'data\background.txt', mode = 'w') as background:
